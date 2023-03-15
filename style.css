@@ -1,0 +1,44 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--Light-gray);
+}
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+.card {
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 20px;
+  width: 270px;
+  box-shadow: 1px 5px 15px 5px hsla(218, 44%, 22%, 0.1);
+}
+.card div {
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card div h1 {
+  font-size: 22px;
+  color: var(--Dark-blue);
+  margin: 14px 0;
+}
+.card div p {
+  text-align: center;
+  margin-top: 0;
+  color: var(--Grayish-blue);
+  padding: 0 3px 0px 3px;
+  font-size: 15px;
+}
